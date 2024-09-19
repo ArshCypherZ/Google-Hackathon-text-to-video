@@ -1,0 +1,7 @@
+diffusers
+accelerate
+transformers
+torch
+moviepy
+sentencepiece
+Pillow
