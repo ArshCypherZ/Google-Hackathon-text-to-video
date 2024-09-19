@@ -24,7 +24,7 @@ from transformers import (
     T5TokenizerFast,
     T5EncoderModel,
 )
-from diffusers.models.transformer import SD3Transformer2DModel
+from diffusers.models.transformers import SD3Transformer2DModel
 from transformers import AutoTokenizer, PretrainedConfig, CLIPTextModel, CLIPTextModelWithProjection
 from diffusers.image_processor import VaeImageProcessor
 from diffusers.loaders import FromSingleFileMixin, SD3LoraLoaderMixin
