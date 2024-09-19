@@ -1,0 +1,14 @@
+build:
+  python_version: "3.8"
+  python_packages:
+    - torch
+    - moviepy
+    - numpy
+    - cog
+    - diffusers
+    - accelerate
+    - transformers
+    - sentencepiece
+    - Pillow
+
+predict: "predict.py:Predictor"
